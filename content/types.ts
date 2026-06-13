@@ -12,6 +12,16 @@ export interface Profile {
   email: string;
   socials: SocialLink[];
   bio: string[];
+  /** Public path to a headshot, e.g. "/profile.jpg". Empty = monogram placeholder. */
+  photo?: string;
+}
+
+export interface Testimonial {
+  quote: string;
+  author: string;
+  title: string;
+  relationship: string;
+  href?: string;
 }
 
 export interface Role {

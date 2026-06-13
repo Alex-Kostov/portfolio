@@ -9,7 +9,9 @@ export const experience: Role[] = [
     location: "Sofia, Bulgaria",
     arrangement: "Hybrid",
     bullets: [
-      "Full-stack engineering with Next.js and React.js.",
+      "Building custom fintech trading platforms with advanced, real-time live-data-feed tables and charts.",
+      "Designing performant, data-dense UIs for live market data.",
+      "Full-stack engineering with Next.js, React, and TypeScript.",
     ],
   },
   {

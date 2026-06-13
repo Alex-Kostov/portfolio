@@ -15,20 +15,9 @@ a blog. Quiet, confident, editorial.
 - A recruiter can, in under 60 seconds, understand who Alex is, what he does, his
   experience, and how to reach him.
 - Looks polished and professional on first load; ages well; not "templatey."
-- Visually distinct from the three reference/colleague sites (sbonev.com,
-  antoanpopov.com, petrov.build) — no two-identical-sites problem.
 - Loads fast, works on mobile, deploys to Vercel with one push.
 
 ## 2. Direction & aesthetic
-
-Minimal editorial — inspired by antoanpopov.com's restraint, but deliberately
-differentiated:
-
-| Axis        | Antoan (reference) | This site                                  |
-| ----------- | ------------------ | ------------------------------------------ |
-| Type        | Monospace          | **Cormorant** classical serif for display  |
-| Palette     | Dark only          | **Light "paper" default + dark toggle**     |
-| Color       | Monochrome + green | One restrained accent (configurable)        |
 
 **"Roman" touch (restrained):** classical serif display typography only — Cormorant for
 the name and section headings. No Roman numerals, no laurel/column ornaments, nothing
