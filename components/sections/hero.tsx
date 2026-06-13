@@ -1,9 +1,11 @@
-import { Mail, ExternalLink } from "lucide-react";
+import { Mail } from "lucide-react";
+import { Github, Linkedin } from "@/components/brand-icons";
 import { profile } from "@/content/profile";
 
-// lucide-react in this project does not export Github/Linkedin brand icons;
-// ExternalLink is used as a neutral fallback for social links.
-const iconFor: Record<string, typeof Mail> = { GitHub: ExternalLink, LinkedIn: ExternalLink };
+const iconFor: Record<string, (props: { className?: string }) => React.ReactElement> = {
+  GitHub: Github,
+  LinkedIn: Linkedin,
+};
 
 export function Hero() {
   return (
@@ -22,7 +24,7 @@ export function Hero() {
           <Mail className="h-4 w-4" /> Email
         </a>
         {profile.socials.map((s) => {
-          const Icon = iconFor[s.label] ?? Mail;
+          const Icon = iconFor[s.label];
           return (
             <a
               key={s.href}
@@ -31,7 +33,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-2 text-muted transition-colors hover:text-foreground"
             >
-              <Icon className="h-4 w-4" /> {s.label}
+              {Icon ? <Icon className="h-4 w-4" /> : null} {s.label}
             </a>
           );
         })}
