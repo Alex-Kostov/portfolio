@@ -11,7 +11,7 @@ export const profile: Profile = {
   email: "alex89773@gmail.com",
   // Drop a headshot at public/profile.jpg and set this to "/profile.jpg".
   // While empty, the hero shows a monogram placeholder.
-  photo: "",
+  photo: "/profile.jpg",
   socials: [
     { label: "LinkedIn", href: "https://www.linkedin.com/in/aleksandar-kostov-5754121bb/" },
     { label: "GitHub", href: "https://github.com/Alex-Kostov" },
