@@ -1,7 +1,9 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, ExternalLink } from "lucide-react";
 import { profile } from "@/content/profile";
 
-const iconFor: Record<string, typeof Mail> = { GitHub: Github, LinkedIn: Linkedin };
+// lucide-react in this project does not export Github/Linkedin brand icons;
+// ExternalLink is used as a neutral fallback for social links.
+const iconFor: Record<string, typeof Mail> = { GitHub: ExternalLink, LinkedIn: ExternalLink };
 
 export function Hero() {
   return (
