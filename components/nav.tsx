@@ -19,7 +19,7 @@ export function Nav() {
           {profile.shortName}
         </Link>
         <div className="flex items-center gap-1 md:gap-4">
-          <ul className="hidden items-center gap-4 font-mono text-xs text-muted sm:flex">
+          <ul className="hidden items-center gap-4 font-mono text-sm text-muted md:flex">
             {links.map((l) => (
               <li key={l.href}>
                 <Link href={l.href} className="transition-colors hover:text-foreground">
