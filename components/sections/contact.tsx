@@ -6,8 +6,8 @@ export function Contact() {
     <>
       <Section id="contact" title="Contact">
         <p className="max-w-2xl text-lg text-muted">
-          I&apos;m open to interesting full-stack and AI-focused roles. The fastest way to
-          reach me is email.
+          Looking for my next front-end or full-stack role — bonus points if there&apos;s
+          some AI in the mix. Email is the fastest way to reach me.
         </p>
         <div className="mt-6 flex flex-wrap gap-4 font-mono text-sm">
           <a
