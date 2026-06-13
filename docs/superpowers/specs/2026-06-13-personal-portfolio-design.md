@@ -124,7 +124,7 @@ Projects · Contact) + theme toggle right. Smooth-scroll; no page reloads (this 
 - Location: Sofia, Bulgaria
 - LinkedIn: https://www.linkedin.com/in/aleksandar-kostov-5754121bb/
 - GitHub: https://github.com/Alex-Kostov
-- Email: _TBD — Alex to provide the address to expose for mailto._
+- Email: alex89773@gmail.com (exposed via mailto link)
 
 **Bio (DRAFT — Alex to refine; LinkedIn couldn't be auto-fetched):**
 
@@ -201,7 +201,7 @@ Projects · Contact) + theme toggle right. Smooth-scroll; no page reloads (this 
 
 ## 7. Open items to resolve during/after build
 
-- **Email address** for the mailto link (Alex to provide).
+- ~~**Email address** for the mailto link~~ — resolved: alex89773@gmail.com.
 - **Bio** final wording (draft provided; refine, ideally with real LinkedIn detail).
 - **90K Capital** role bullets.
 - **Accent color** final decision (ships as oxblood; one-token change if disliked).
