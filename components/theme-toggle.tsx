@@ -7,6 +7,7 @@ import { Moon, Sun } from "lucide-react";
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- hydration guard; setMounted(true) only fires once on mount, no cascade
   useEffect(() => setMounted(true), []);
 
   const isDark = resolvedTheme === "dark";
