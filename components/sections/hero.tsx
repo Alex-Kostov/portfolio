@@ -19,7 +19,7 @@ export function Hero() {
       <div className="mt-8 flex flex-wrap items-center gap-3 font-mono text-sm">
         <a
           href={`mailto:${profile.email}`}
-          className="inline-flex items-center gap-2 rounded-md bg-accent px-4 py-2 text-white transition-opacity hover:opacity-90"
+          className="inline-flex items-center gap-2 rounded-md bg-accent px-4 py-2 text-accent-fg transition-opacity hover:opacity-90"
         >
           <Mail className="h-4 w-4" /> Email
         </a>
