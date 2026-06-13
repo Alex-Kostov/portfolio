@@ -29,7 +29,7 @@
 
   /* ── ACCENT: change this ONE line to recolor the whole site ──
      Default: teal. Alternatives: oxblood #7B2D26, muted gold #B08D2E */
-  --color-accent: #0f766e;
+  --color-accent: #20d9cb;
   /* Text/icon color that sits on top of the accent (e.g. the Email button).
      Keep it readable against whatever --color-accent you choose. */
   --color-accent-fg: #ffffff;

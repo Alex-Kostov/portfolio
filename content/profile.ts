@@ -4,9 +4,9 @@ export const profile: Profile = {
   name: "Aleksandar Kostov",
   shortName: "Alex Kostov",
   title:
-    "Full-Stack Developer — React, Next.js, Node.js, PHP · AI Integrations, LLM Applications & Automation",
+    "Full-Stack TypeScript (React, Next.js, Node, React Native)",
   pitch:
-    "I build products end to end and wire language models into them — typed, maintainable, and production-ready.",
+    "I build products end to end — typed, maintainable, and production-ready — using Claude and AI-assisted workflows to ship faster without cutting corners.",
   location: "Sofia, Bulgaria",
   email: "alex89773@gmail.com",
   // Drop a headshot at public/profile.jpg and set this to "/profile.jpg".

@@ -9,9 +9,13 @@ export const experience: Role[] = [
     location: "Sofia, Bulgaria",
     arrangement: "Hybrid",
     bullets: [
-      "Building custom fintech trading platforms with advanced, real-time live-data-feed tables and charts.",
-      "Designing performant, data-dense UIs for live market data.",
-      "Full-stack engineering with Next.js, React, and TypeScript.",
+      "Built complex UIs with React, Next.js, TypeScript, TailwindCSS, shadcn/ui, and Redux for custom HFT (high-frequency trading) platforms, ensuring scalability and maintainability.",
+      "Developed a client-facing B2B platform enabling institutional clients to execute orders directly through the system.",
+      "API Integration: Built Node.js/Express API gateways connecting front-end applications with backend services.",
+      "UX & Component Design: Designed reusable UI components, data-heavy dashboards, and complex AG Grid Enterprise tables and charts to support live market data workflows.",
+      "Code Quality & Practices: Applied strongly typed TypeScript, latest React/Next.js patterns, and internal UI toolkit packages for consistency across projects.",
+      "Maintained internal shared component libraries with Storybook, ensuring design and behavior consistency across products.",
+      "Cross-team Collaboration: Worked closely with quantitative engineers and backend developers to translate requirements into reliable user-facing solutions in an Agile workflow.",
     ],
   },
   {
