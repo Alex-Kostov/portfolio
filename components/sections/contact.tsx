@@ -5,10 +5,6 @@ export function Contact() {
   return (
     <>
       <Section id="contact" title="Contact">
-        <p className="max-w-2xl text-lg text-muted">
-          Looking for my next front-end or full-stack role — bonus points if there&apos;s
-          some AI in the mix. Email is the fastest way to reach me.
-        </p>
         <div className="mt-6 flex flex-wrap gap-4 font-mono text-sm">
           <a
             href={`mailto:${profile.email}`}
